@@ -11,11 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header>
+        <header className='pb-7'>
           <Navbar />
         </header>
-          <main>
-            <div className='container mx-auto'>
+          <main className='h-screen'>
+            <div className='container h-full mx-auto px-2'>
               {children}
             </div>
           </main>
