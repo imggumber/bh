@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="subscribe text-right">
           <ul className="flex items-center">
             <li><Image className="hover:cursor-pointer" src={SearchImage} width={60} height={60} alt="search-icon"/></li>
-            <li className="ms-5"><Link className="px-6 py-2 font-bold rounded-lg text-[--foreground] bg-[#AB886D] hover:opacity-90" href={'#'}>Subscribe</Link></li>
+            <li className="ms-5"><Link className="px-6 py-2 font-bold rounded-3xl text-[--background] bg-[#FFDCA9] hover:bg-[#FEFCF3]" href={'#'}>Subscribe</Link></li>
           </ul>
         </div>
       </div>
