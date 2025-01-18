@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
     <nav>
-      <div className="flex justify-between items-center py-4 px-8">
+      <div className="flex justify-between container mx-auto items-center px-2 py-4">
         <div className="logo w-64">
           <Link className="text-3xl font-[--heading-font]" href={'#'}>Byte Height</Link>
         </div>
