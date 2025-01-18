@@ -15,7 +15,7 @@ let style = {
 const Hero = () => {
   return (
     <>
-    <div style={style} className="hero h-full rounded-lg flex items-end">
+    <div style={style} className="hero overflow-hidden flex items-end">
       <div className="title__category p-4">
         <div className="title">
           <Category />

@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
         <header className='pb-7'>
           <Navbar />
         </header>
-          <main className='h-screen'>
+          <main className='h-screen overflow-hidden'>
             <div className='container h-full mx-auto px-2'>
               {children}
             </div>
