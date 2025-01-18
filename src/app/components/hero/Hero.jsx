@@ -15,8 +15,8 @@ let style = {
 const Hero = () => {
   return (
     <>
-    <div style={style} className="hero overflow-hidden flex items-end">
-      <div className="title__category p-4">
+    <div style={style} className="hero overflow-hidden rounded-md flex items-end">
+      <div className="title__category p-4 pb-0">
         <div className="title">
           <Category />
           <Link href={'#'} className='mt-4 mb-32 block'>
