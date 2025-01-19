@@ -5,8 +5,6 @@ import BackgroundImg from '../../common/images/bg_1.jpg';
 
 let style = {
   'background': `url(${BackgroundImg.src})`,
-  'width': '100%',
-  'height': '100%',
   'backgroundRepeat': 'no-repeat',
   'backgroundPosition': 'top'
 }
@@ -15,7 +13,7 @@ let style = {
 const Hero = () => {
   return (
     <>
-    <div style={style} className="hero overflow-hidden rounded-md flex items-end">
+    <div style={style} className="hero overflow-hidden w-full h-full md:hover:w-[99%] md:hover:h-[99%] rounded-md flex items-end">
       <div className="title__category p-4 pb-0">
         <div className="title">
           <Category />
